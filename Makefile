@@ -1,6 +1,6 @@
 default:
-	avr-gcc -Os -DF_CPU=16000000UL -mmcu=atmega8 -c -o hello_arduino.o hello_arduino.c
-	avr-gcc -o hello_arduino.bin hello_arduino.o
-	avr-objcopy -O ihex -R .eeprom hello_arduino.bin hello_arduino.hex
-	sudo avrdude -v -v -v -F -V -c avrisp -p m8 -P /dev/ttyUSB0 -b 19200 -U flash:w:hello_arduino.hex
+	avr-gcc -Os -DF_CPU=16000000UL -mmcu=atmega8 -c -o seven_segment.o seven_segment.c
+	avr-gcc -o seven_segment.bin seven_segment.o
+	avr-objcopy -O ihex -R .eeprom seven_segment.bin seven_segment.hex
+	sudo avrdude -v -v -v -F -V -c avrisp -p m8 -P /dev/ttyUSB0 -b 19200 -U flash:w:seven_segment.hex
 
