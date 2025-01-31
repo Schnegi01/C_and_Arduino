@@ -10,6 +10,7 @@ I am learning C and embedded programming on my Arduino NG.
 ## Arduino
 
 The Arduino is an Arduino NG with an ATMEGA8 for the microcontroller.
+
 Specs:
  - 16MHz
  - 8Kbytes Flash memory
