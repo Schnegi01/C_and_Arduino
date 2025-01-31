@@ -19,5 +19,4 @@ This is half the SRAM and a fourth the Flash memory of the ATmega328P, which is 
 
 Fun Fact:
 I had to build my own seven segment display on a breadboard because i only had one and it two LEDs were broken. I could have ordered new ones it would have taken a long time to ship and I didn't want to wait.
-![breadboard seven segment display](./breadboard_seven_segment_display)
-
+<img src="./breadboard_seven_segment_display.jpg" width="109" height="201">
